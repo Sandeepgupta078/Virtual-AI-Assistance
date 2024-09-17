@@ -58,3 +58,45 @@ h1{
     box-shadow: 2px 2px 20px rgb(0, 234, 255), 2px 2px 20px rgb(217, 0, 255);
     letter-spacing: 2px;
 }
+
+/* media queries for mobile friendly */
+@media screen and (max-width: 768px){
+    #logo{
+        width: 80vw;
+    }
+    h1{
+        font-size: 20px;
+    }
+    #name{
+        font-size: 30px;
+    }
+    #va{
+        font-size: 25px;
+    }
+    #btn{
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+    }
+}
+
+/* media queries for tablet friendly */
+@media screen and (max-width: 1024px){
+    #logo{
+        width: 60vw;
+    }
+    h1{
+        font-size: 30px;
+    }
+    #name{
+        font-size: 40px;
+    }
+    #va{
+        font-size: 35px;
+    }
+    #btn{
+        width: 300px;
+        height: 35px;
+        font-size: 18px;
+    }
+}
