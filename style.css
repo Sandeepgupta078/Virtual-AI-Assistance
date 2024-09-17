@@ -62,11 +62,11 @@ h1{
 /* media queries for mobile friendly */
 @media screen and (max-width: 768px){
     #logo{
-        width: 120vw;
+        width: 80vw;
     }
     h1{
         font-size: 20px;
-        justify-content: center;
+        text-align: center;
     }
     #name{
         font-size: 30px;
