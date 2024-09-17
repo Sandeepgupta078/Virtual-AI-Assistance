@@ -99,10 +99,10 @@ function takeCommand(message){
         window.open("https://www.geeksforgeeks.org", "_blank");
     } else if(message.includes("open calculator")){
         speak("Opening Calculator");
-        window.open("calculator://");
+        window.open("https://www.tcsion.com/OnlineAssessment/ScientificCalculator/Calculator.html", "_blank");
     } else if(message.includes("open whatsapp")){
         speak("Opening whatsapp");
-        window.open("whatsapp://");
+        window.open("https://web.whatsapp.com", "_blank");
     } else if(message.includes("time")){
         let time = new Date().toLocaleTimeString(undefined, {hour: 'numeric', minute: 'numeric'});
         speak(time);
