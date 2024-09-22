@@ -109,6 +109,11 @@ function takeCommand(message){
     } else if(message.includes("date")){
         let date = new Date().toLocaleDateString(undefined, {day: 'numeric', month: 'long', year: 'numeric'});
         speak(date);
+    } else if(message.includes("day")){
+        let day = new Date().toLocaleDateString(undefined, {weekday: 'long'});
+        speak(day);
+    } else if(message.include("porn") || message.include("vulgur") || message.include("nude")){
+        speak("I am sorry, I can't do that.");
     }
     else{
         let finaltext = "let me search on google " + message.replace("Shipra","")||message.replace("Shifra","");
